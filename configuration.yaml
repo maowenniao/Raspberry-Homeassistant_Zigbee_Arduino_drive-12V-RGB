@@ -1,0 +1,12 @@
+arduino:
+  port: /dev/ttyUSB0
+
+switch:
+  platform: arduino
+  pins:
+   8:
+     name: Green LED
+   12:
+     name: Red LED
+   13:
+     name: Blue LED
